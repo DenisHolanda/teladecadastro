@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  /* background-color: white; */
+  padding: 5px;
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+}
+
+.LogoOrganic {
+  margin-top: -80px;
+  padding-left: 40%;
+  margin-left: 50%;
+}
+
+.card-img {
+  padding: 0;
+  height: 20px;
+  width: 500px;
+}
+
+
+
+.container {
+  position: relative;
+
+}
+
+.container label {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  color: #ffffff;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.container input:focus~label,
+.container input:valid~label {
+  top: 8px;
+  left: 12px;
+  font-size: 10px;
+
+}
+
+.card {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+#card {
+  height: 30%;
+}
+
+.card-text {
+  color: #898989;
+  font-size: 150%;
+  /* bottom: 100px; */
+
+}
+
+.alterar-info {
+  display: inline-block;
+  color: #898989;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Caixa:after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid;
+  color: #b7b7b7;
+  border-radius: 10px;
+}
+
+.Caixa h1{
+
+  font-size: 150%;
+}
+
+.button {
+  padding-top: 9px;
+  padding-right: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.preço {
+  color: rgb(30, 166, 0);
+
+}
+
+.download img {
+  color: red;
+}
+
+.body {
+  display: flex;
+}
+
+.title {
+  font-size: 30px;
+  display: inline-block;
+  width: 400px;
+}
+
+
+.card-text2 {
+  color: #898989;
+  font-size: 150%;
+  /* bottom: 100px; */
+
+}
+
+.alterar-info {
+  display: inline-block;
+  color: #898989;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Caixa:after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid;
+  color: #b7b7b7;
+  border-radius: 10px;
+}
+
+.Caixa h1{
+
+  font-size: 150%;
+}
+
+.button {
+  padding-top: 9px;
+  padding-right: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.preço {
+  color: rgb(30, 166, 0);
+
+}
+
+.download img {
+  color: red;
+}
+
+.body {
+  display: flex;
+}
+
+.title {
+  font-size: 30px;
+  display: inline-block;
+  width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+  .body {
+    display: block;
+  }
+
+  .card-img {
+
+    width: 0px;
+  }
+
+  #card {
+    width: 350px;
+  }
+
+}
+
